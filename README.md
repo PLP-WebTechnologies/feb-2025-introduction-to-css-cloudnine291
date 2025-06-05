@@ -1,29 +1,47 @@
-# Introduction to CSS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-## Objectives
-Link an external CSS file to an HTML document.
-Apply basic styling using selectors.
-Use colors, fonts, and spacing effectively.
+  <h1 id="main-title">Welcome</h1>
 
-## Instructions
+  <p class="intro-text">This page demonstrates external CSS styling using classes, IDs, and other properties.</p>
 
-Create a style.css file.
-Apply CSS to a HTML page.
-Style elements using:
-Classes and IDs.
-Color and typography.
-Margins, paddings, and borders.
+  <img src="image.jpg" alt="Sample Image" class="styled-image">
 
->[!NOTE]
->  - Include at least:
->  - Use of 3 selectors
->  - Style an image
->  - Margin, Padding & Borders
->  - Different font
+</body>
+</html>
 
-# Tasks
- - Link an external CSS file.
- - Apply at least 3 different selectors.
- - Improve readability and aesthetics.
 
-Happy Coding! 💻✨
+
+     css 
+
+     #main-title {
+  color: #2c3e50;
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.intro-text {
+  color: #444;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 20px;
+  padding: 12px;
+  border: 1px solid #bbb;
+  background-color: #f5f5f5;
+}
+
+.styled-image {
+  width: 300px;
+  margin: 20px 0;
+  padding: 6px;
+  border: 2px solid #666;
+  border-radius: 8px;
+}
